@@ -1,0 +1,10 @@
+print("======THE GUESSING GAME======")
+
+seceret = 47
+
+for i in range(5):
+    guess1 = int(input("enter the number you guessed: "))
+    if guess1 == seceret: 
+        print("you have guessed right!!")
+    else:
+        print("Wrong, you have four attempts left!")
